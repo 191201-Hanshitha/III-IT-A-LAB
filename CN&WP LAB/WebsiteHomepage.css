@@ -1,0 +1,31 @@
+html{
+    background: url(WPImage.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+p{
+    color: white;
+}
+.topnav{
+    background-color: black;
+    overflow:hidden;
+}
+.topnav a{
+    float: right;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color:cornflowerblue;
+    color:black;
+}
+.topnav a.active{
+    background-color:none;
+    color:white;
+}
